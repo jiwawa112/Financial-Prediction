@@ -4,7 +4,7 @@
 **参考论文：Predicting the direction of stock market prices using random forest**
 
 **论文思路：**
-![Alt text](https://github.com/jiwawa112/Financial-Prediction/tree/master/Financial-Prediction-Random-Forest/images/Methodology.jpg.png)
+![Alt text](https://github.com/jiwawa112/Financial-Prediction/tree/master/Financial-Prediction-Random-Forest/images/Methodology.png)
 
 **算法流程：**
 获取金融数据->指数平滑->计算技术指标->数据归一化->随机森林模型预测
@@ -34,7 +34,7 @@
 + 2.未来第k天的选择问题
 
 **归一化方法**
-随机森林模型其实本身不需要数据归一化（如需要对数据集进行归一化也需要考虑对训练集、验证集、测试集独立归一化）
++ 随机森林模型其实本身不需要数据归一化（如需要对数据集进行归一化也需要考虑对训练集、验证集、测试集独立归一化）
 
 **股票预测考虑的数据特征：**
 + 原始数据特征（open/close/high/low）
