@@ -17,7 +17,7 @@ from keras.layers import Dense, Embedding
 from keras.layers import LSTM
 
 # 生成标签值：下一天收盘价
-def generate_label(df):
+def get_label(df):
     next_close = list()
     for i in range(len(df['close']) - 1):
         next_close.append(df['close'][i + 1])
@@ -31,7 +31,6 @@ def normalized(df):
     for i in ['open', 'close', 'high', 'low', 'vol','next_close']:
         df[i] = scaler.fit_transform(np.reshape(np.array(df[i]), (-1, 1)))
     return df
-
 
 # 生成训练和测试数据
 def generate_model_data(df,alpha,days):
@@ -86,7 +85,7 @@ if __name__ == '__main__':
 
     days = 15
     alpha = 0.8
-    df = generate_label(df)
+    df = get_label(df)
     df.head()
     scaler = MinMaxScaler(feature_range=(0,1))
     df = normalized(df)
