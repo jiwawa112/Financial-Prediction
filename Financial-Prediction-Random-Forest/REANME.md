@@ -4,9 +4,6 @@
 **参考论文：Predicting the direction of stock market prices using random forest**
 
 **论文思路：**
-![Alt text](https://github.com/jiwawa112/Financial-Prediction/tree/master/Financial-Prediction-Random-Forest/images/Methodology.jpg.png)
-
-**算法流程：**
 获取金融数据->指数平滑->计算技术指标->数据归一化->随机森林模型预测
 
 **函数介绍：**
@@ -19,9 +16,9 @@
 + 7、model 随机森林模型并返回准确率和特征排名
 
 **决策树：**
-+（1）ID3: 基于信息增益大的特征划分层次
-+（2）C4.5: 基于信息增益比=信息增益/特征熵划分层次
-+（3）CART: 基于Gini划分层次
++ （1）ID3: 基于信息增益大的特征划分层次
++ （2）C4.5: 基于信息增益比=信息增益/特征熵划分层次
++ （3）CART: 基于Gini划分层次
 
 **基于Bagging集成学习算法，有多棵决策树组成（通常是CART决策树），其主要特性有：**
 + （1）样本随机采样
@@ -34,7 +31,7 @@
 + 2.未来第k天的选择问题
 
 **归一化方法**
-随机森林模型其实本身不需要数据归一化（如需要对数据集进行归一化也需要考虑对训练集、验证集、测试集独立归一化）
++ 随机森林模型其实本身不需要数据归一化（如需要对数据集进行归一化也需要考虑对训练集、验证集、测试集独立归一化）
 
 **股票预测考虑的数据特征：**
 + 原始数据特征（open/close/high/low）
