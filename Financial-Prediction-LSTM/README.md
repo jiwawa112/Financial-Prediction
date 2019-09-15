@@ -22,10 +22,10 @@
 
 
 **训练集拟合效果：**
-<img src="https://github.com/jiwawa112/Financial-Prediction/raw/master/Financial-Prediction-LSTM/images/train_pred.png" width="500">
++ <img src="https://github.com/jiwawa112/Financial-Prediction/raw/master/Financial-Prediction-LSTM/images/train_pred.png" width="500">
 
 **测试集拟合效果：**
-<img src="https://github.com/jiwawa112/Financial-Prediction/raw/master/Financial-Prediction-LSTM/images/test_pred.png" width="500">
++ <img src="https://github.com/jiwawa112/Financial-Prediction/raw/master/Financial-Prediction-LSTM/images/test_pred.png" width="500">
 
 **评估指标：**
 + 1、RMSE
