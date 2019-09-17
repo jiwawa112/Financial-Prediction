@@ -4,6 +4,8 @@
 **参考论文：Predicting the direction of stock market prices using random forest**
 
 **论文思路：**
++ <img src="https://https://github.com/jiwawa112/Financial-Prediction/blob/master/Financial-Prediction-Random -Forest/images/Methodology.png" width="500">
+
 获取金融数据->指数平滑->计算技术指标->数据归一化->随机森林模型预测
 
 **函数介绍：**
